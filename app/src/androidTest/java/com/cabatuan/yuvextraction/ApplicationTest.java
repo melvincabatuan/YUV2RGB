@@ -1,4 +1,4 @@
-package com.cabatuan.yuv2rgb;
+package com.cabatuan.yuvextraction;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

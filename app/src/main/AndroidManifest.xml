@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cabatuan.yuv2rgb" >
+    package="com.cabatuan.yuvextraction" >
 
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
@@ -17,7 +17,7 @@
         android:hardwareAccelerated="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.cabatuan.yuv2rgb.MainActivity"
+            android:name="com.cabatuan.yuvextraction.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="landscape"
             android:configChanges="keyboardHidden|orientation|screenSize">

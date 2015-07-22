@@ -14,6 +14,11 @@ using namespace cv;
 
 
 
+
+
+
+
+
 /// 17 fps
 void NV21toYUV( const cv::Mat &src, cv::Mat &rgba ){
 
@@ -35,18 +40,20 @@ void NV21toYUV( const cv::Mat &src, cv::Mat &rgba ){
       for (int i = 0; i < src.cols - 1; i+=2) {
       
           // Get V & U
-             colorV = uv_row[i];
-             colorU = uv_row[i+1];
+             colorV = uv_row[i]  - 128;
+             colorU = uv_row[i+1] - 128;
           
              //LOGI("colorV = %d, colorU = %d", colorV, colorU);
              
-             //This is the problem:
+             // Y = [16, 235]  Studio Swing not Full [0, 255] swing
+             // U = [16, 240]  Studio Swing
+             // V = [16, 240]  Studio Swing
             
           // Assign to a 2 x 2 block
-             rgba_row[i]    = cv::Vec4b( current[i], colorU, colorV, 255);
-             rgba_row[i+1]  = cv::Vec4b( current[i+1], colorU, colorV, 255);
-             next_rgba[i]   = cv::Vec4b( next[i], colorU, colorV, 255);
-		     next_rgba[i+1] = cv::Vec4b( next[i+1], colorU, colorV, 255);
+             rgba_row[i]    = cv::Vec4b( current[i] - 16, colorU, colorV, 255);
+             rgba_row[i+1]  = cv::Vec4b( current[i+1] - 16, colorU, colorV, 255);
+             next_rgba[i]   = cv::Vec4b( next[i] - 16, colorU, colorV, 255);
+		     next_rgba[i+1] = cv::Vec4b( next[i+1] - 16, colorU, colorV, 255);
 		     
 		      
        }

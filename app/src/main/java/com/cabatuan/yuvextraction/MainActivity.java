@@ -1,4 +1,4 @@
-package com.cabatuan.yuv2rgb;
+package com.cabatuan.yuvextraction;
 
 import android.graphics.Bitmap;
 import android.graphics.PixelFormat;
