@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/cobalt/AndroidStudioProjects/YUV2RGB/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/cobalt/AndroidStudioProjects/YUV2RGB/app/build/intermediates/pre-dexed/debug/classes-73f1b5b8e9f2f177a0b654a9285ade218b918003.jar" />
+    </item>
+    <item
+        jar="/home/cobalt/AndroidStudioProjects/YUV2RGB/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/cobalt/AndroidStudioProjects/YUV2RGB/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-be842b33530cb4c5f89fae43fe616f25db4d68c3.jar" />
+    </item>
+    <item
+        jar="/home/cobalt/AndroidStudioProjects/YUV2RGB/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/cobalt/AndroidStudioProjects/YUV2RGB/app/build/intermediates/pre-dexed/debug/classes-740f0c137a77dd5e1693e06c4ef4e7f3bdbb7c31.jar" />
+    </item>
+    <item
+        jar="/home/cobalt/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/cobalt/AndroidStudioProjects/YUV2RGB/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-8cc0e63cf9402c9ce3f4cccb6b99350936f413b8.jar" />
+    </item>
+
+</items>
